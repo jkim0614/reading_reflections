@@ -1,0 +1,33 @@
+body {
+    background: rgb(0, 200, 255) url('https://eos.org/wp-content/uploads/2024/08/North-Cascades-National-Park.png') no-repeat center fixed;
+    background-size: 960px;
+    font-family: fantasy;
+    background-position:center;
+}
+
+p {
+    color:rgb(214, 17, 181);
+    background-color: rgb(77, 134, 12);
+    padding: 15px;
+}
+
+.special {
+    color:rgba(21, 232, 49, 0.742); 
+    background-color: rgb(21, 12, 195);
+    font-size: 150%;
+    margin: 10px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
+@keyframes myAnimation {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
